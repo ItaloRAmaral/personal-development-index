@@ -1,46 +1,63 @@
+import { format, formatDistanceToNow } from "date-fns";
+import ptBR from "date-fns/locale/pt-BR";
+import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
+import { useState } from "react";
 
-export function Post() {
+export function Post({ author, content, publishedAt }) {
+  const [comments, setComments] = useState([1, 2])
+  const publishedDateFormatted = format(publishedAt, "dd LLLL às HH:mm'h'", {
+    locale: ptBR,
+  })
+
+  const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
+    locale: ptBR,
+    addSuffix: true,
+  })
+
+  function handleCreateComment(event) {
+    event.preventDefault();
+  }
+
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            src="https://github.com/italoRAmaral.png"
-            className={styles.avatar}
-          />
+          <Avatar src={author.avatarUrl} />
 
           <div className={styles.authorInfo}>
-            <strong>Italo Amaral</strong>
-            <span>Software Developer</span>
+            <strong>{author.name}</strong>
+            <span>{author.role}</span>
           </div>
         </div>
 
-        <time title="31 de Janeiro às 11:42" dateTime="2023-05-31">
-          31 Jan 2023
+        <time
+          title={publishedDateFormatted}
+          dateTime={publishedAt.toISOString()}
+        >
+          {publishedDateRelativeToNow}
         </time>
       </header>
 
       <div className={styles.content}>
-        <p>Fala galeraa 👋 </p>
-        <p>
-          Acabei de subir mais um projeto no meu portifa. É um projeto que fiz
-          no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
-        </p>
-        <p>
-          {" "}
-          <a>👉 jane.design/doctorcare</a>
-        </p>
-        <p>
-          {" "}
-          <a>#novoprojeto</a>
-          <a>#nlw</a>
-          <a>#rocketseat</a>
-        </p>
+        {content.map((contentItem, index) => {
+          switch (contentItem.type) {
+            case "paragraph":
+              return <p key={index}>{contentItem.content}</p>;
+            case "link":
+              return (
+                <p>
+                  <a key={index} href={contentItem.content}>
+                    {contentItem.content}
+                  </a>
+                </p>
+              );
+          }
+        })}
       </div>
 
-      <form className={styles.commentForm}>
+      <form onSubmit={handleCreateComment} className={styles.commentForm}>
         <strong>Deixe seu feedback</strong>
 
         <textarea placeholder="Deixe um comentário..." />
@@ -50,7 +67,10 @@ export function Post() {
       </form>
 
       <div className={styles.commentList}>
-        <Comment />
+        {comments.map((comment) => {
+          return <Comment />;
+        })}
+        {/* <Comment /> */}
       </div>
     </article>
   );
