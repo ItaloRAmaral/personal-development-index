@@ -1,16 +1,18 @@
-import { Post } from "./components/Post";
 import { Header } from "./components/Header";
+import { Post } from "./components/Post";
 import { Sidebar } from "./components/Sidebar";
-import "./global.css";
+
 import styles from "./App.module.css";
+
+import "./global.css";
 
 const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: "https://github.com/italoRAmaral.png",
-      name: "Italo Amaral",
-      role: "Software Developer",
+      avatarUrl: "https://github.com/diego3g.png",
+      name: "Diego Fernandes",
+      role: "CTO @Rocketseat",
     },
     content: [
       { type: "paragraph", content: "Fala galera 👋" },
@@ -21,7 +23,7 @@ const posts = [
       },
       { type: "link", content: "jane.design/doctorcare" },
     ],
-    publishedAt: new Date("2023-05-31 20:00:00"),
+    publishedAt: new Date("2022-05-03 20:00:00"),
   },
   {
     id: 2,
@@ -39,7 +41,7 @@ const posts = [
       },
       { type: "link", content: "jane.design/doctorcare" },
     ],
-    publishedAt: new Date("2023-05-15 20:00:00"),
+    publishedAt: new Date("2022-05-10 20:00:00"),
   },
 ];
 
@@ -47,9 +49,9 @@ export function App() {
   return (
     <div>
       <Header />
+
       <div className={styles.wrapper}>
         <Sidebar />
-
         <main>
           {posts.map((post) => {
             return (
@@ -59,12 +61,8 @@ export function App() {
                 content={post.content}
                 publishedAt={post.publishedAt}
               />
-            );  
+            );
           })}
-          {/* <Post
-            author="Italo"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ullam odio deleniti asperiores quasi repellat, repudiandae, modi dolor a animi voluptas aliquid in explicabo molestiae sequi veniam voluptatem placeat. Fugit!"
-          /> */}
         </main>
       </div>
     </div>
