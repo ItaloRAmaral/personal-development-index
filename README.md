@@ -195,7 +195,7 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
     <summary>
-      <a href="">[Course] [Ignite] ReactJS Module </a> <a href=""> (0%) </a>(0%)
+      <a href="">[Course] [Ignite] ReactJS Module </a> <a href=""> (0%) </a>(20%)
     </summary>
     <ul>
       <li>
