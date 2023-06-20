@@ -1,0 +1,11 @@
+# _[Lecture 01 - Starting with Go Language](https://www.youtube.com/watch?v=E-VNDPIVhs4)_
+
+
+### _[01 - Golang](https://go.dev)_
+
+- A linguagem Go nasceu no Google.
+- A Google trabalhava bastante com C++, Phyton e Java, e internamente eles diziam que:
+  -  C++ tinha uma complexidade muito grande e uma lentidão muito grande para gerar as builds
+  - Phyton não tem uma das melhores performances apesar de ser uma linguagem muito tranquila para se usar
+  - Java na época tinha "parado" no tempo, não estava tão em alta e a linguagem em si é bem verbosa
+- A linguagem Go nasceu pra ser uma linguagem simples, rápida 
