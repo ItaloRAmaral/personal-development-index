@@ -1,4 +1,4 @@
-# _[Lecture 01 - Starting with Go Language](https://www.youtube.com/watch?v=E-VNDPIVhs4)_
+# _[Lecture 00 - Starting with Go Language](https://www.youtube.com/watch?v=E-VNDPIVhs4)_
 
 
 ### _[01 - Golang](https://go.dev)_
