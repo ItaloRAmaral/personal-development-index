@@ -65,3 +65,8 @@ Para buildar um arquivo para outro SO:
 ```bash
 GOOS=windows go build
 ```
+
+Para instalar dependencias e excluir as não usadas: 
+```bash
+go mod tidy
+```
