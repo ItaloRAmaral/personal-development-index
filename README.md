@@ -116,6 +116,21 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+ <li>
+    <details> 
+      <summary>
+        <a href="https://www.youtube.com/watch?v=u-rNjpYlTHc&t=1s">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/Immersion_FullStack_Full_Cycle_jun23"> Immersion FullStack Full Cycle (edition: jun/2023) </a> (25%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 27/02/2023
+        </li>
+        <li>
+          Finished: 03/03/2023
+        </li>
+      </ul>
+      </details>
+  </li>
    <li>
     <details> 
       <summary>
