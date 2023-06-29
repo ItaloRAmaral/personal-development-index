@@ -1,4 +1,4 @@
-# _[Lecture 01 - Starting FullStack & Full Cycle Immersion](https://www.youtube.com/watch?v=u-rNjpYlTHc)_
+# Lecture 01 - Starting FullStack & Full Cycle Immersion
 
 ### 1 - Introdução
 

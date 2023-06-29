@@ -1,4 +1,4 @@
-# _[Lecture 02 - Communication between microservices with Apache Kafka](https://www.youtube.com/watch?v=RRo0Vdydbyk)_
+# Lecture 02 - Communication between microservices with Apache Kafka
 
 ### 1 - Introdução
 
