@@ -1,4 +1,4 @@
-## [LIVRO] Extreme Programming Pocket Guide
+## [BOOK] Extreme Programming Pocket Guide
 
 Author: Shane Warden
 
