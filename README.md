@@ -110,7 +110,7 @@ This is a simple document that aims to list and index evidences of personal deve
    <li>
     <details> 
       <summary>
-        <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Testes_Funcionais_de_Software"> [Book] Testes Funcionais de Software </a> (100%) ✔️
+        <a href="https://github.com/ItaloRAmaral/personal-development-index/blob/main/Books/2023/Testes_Funcionais_de_Software/README.md"> [Book] Testes Funcionais de Software </a> (100%) ✔️
       </summary>
       <ul>
         <li>
@@ -126,7 +126,7 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
       <summary>
-        <a href=""> [Book] Extreme Programming - Pocket Guide </a> (0%) 
+        <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/Books/2023/Extreme_Programing_Pocket_Guide"> [Book] Extreme Programming - Pocket Guide </a> (0%) 
       </summary>
       <ul>
         <li>
@@ -174,7 +174,7 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
     <summary>
-      <a href="">[Course] [Ignite] ReactJS Module </a> <a href=""> (0%) </a>(20%)
+      <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Ignite_Course">[Course] [Ignite] ReactJS Module </a> (14%)
     </summary>
     <ul>
       <li>
