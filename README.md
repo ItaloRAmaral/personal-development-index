@@ -20,6 +20,7 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+
   <li>
     <details> 
       <summary>
@@ -35,6 +36,7 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+
   <li>
     <details> 
       <summary>
@@ -50,6 +52,7 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+
   <li>
     <details> 
       <summary>
@@ -65,6 +68,7 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+
   <li>
     <details> 
       <summary>
@@ -80,6 +84,7 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+
   <li>
     <details> 
     <summary>
@@ -96,26 +101,12 @@ This is a simple document that aims to list and index evidences of personal deve
     </details>
   </li>
 </ul>
+
 </br>
 
 <h1>2023</h1>
 
 <ul>
- <li>
-    <details> 
-      <summary>
-        <a href="https://www.youtube.com/watch?v=qAbluRQ6uf0&t=4032sf">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/Notification_service_igniteLab_dez22"> Ignite Lab Node.js (edition: dez/2022) </a> (100%) ✔️
-      </summary>
-      <ul>
-        <li>
-          Started: 27/02/2023
-        </li>
-        <li>
-          Finished: 03/03/2023
-        </li>
-      </ul>
-      </details>
-  </li>
    <li>
     <details> 
       <summary>
@@ -131,7 +122,8 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
-     <li>
+
+  <li>
     <details> 
       <summary>
         <a href=""> [Book] Extreme Programming - Pocket Guide </a> (0%) 
@@ -141,26 +133,12 @@ This is a simple document that aims to list and index evidences of personal deve
           Started: 01/03/2023
         </li>
         <li>
-          Finished: 
+          Finished: 06/07/2023
         </li>
       </ul>
       </details>
   </li>
-  <li>
-    <details> 
-      <summary>
-        <a href="https://github.com/ItaloRAmaral/PsychologistClinicControl"> [Project] Psychologist Clinic Control </a> (1%) 
-      </summary>
-      <ul>
-        <li>
-          Started: 25/02/2023
-        </li>
-        <li>
-          Finished: 
-        </li>
-      </ul>
-      </details>
-  </li>
+
 <li>
     <details> 
       <summary>
@@ -176,6 +154,7 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+
   <li>
     <details> 
       <summary>
@@ -207,40 +186,27 @@ This is a simple document that aims to list and index evidences of personal deve
     </ul>
     </details>
   </li>
+
   <li>
     <details> 
     <summary>
-      <a href="https://github.com/amaralc/systems-design-fundamentals-notes">[Course] </a> <a href=""> Systems Design Fundamentals </a>(0%)
-    </summary>
-    <ul>
-      <li>
-        Started:
-      </li>
-      <li>
-        Finished:
-      </li>
-    </ul>
-    </details>
-  </li>
-  <li>
-    <details> 
-    <summary>
-      <a href="https://www.udemy.com/course/cypress-10-component-testing-tutorial/">[Course] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/Cypress_10_Component_Testing_Tutorial"> Cypress 10 Component Testing Tutorial<a> (100%)  ✔️
+      <a href="https://www.udemy.com/course/cypress-10-component-testing-tutorial/">[Course] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Cypress_10_Component_Testing_Tutorial"> Cypress 10 Component Testing Tutorial<a> (100%)  ✔️
     </summary>
     <ul>
       <li>
         Started: 12/02/2023
       </li>
       <li>
-        Finished:
+        Finished: 12/02/2023
       </li>
     </ul>
     </details>
   </li>
-    <li>
+
+  <li>
       <details> 
     <summary>
-      <a href="https://egghead.io/courses/confidently-testing-redux-applications-with-jest-typescript-16e17d9b">[Course] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/Testing_redux_with_ts_and_jest"> Confidently Testing Redux Applications with Jest & TypeScript<a> (100%)   ✔️
+      <a href="https://egghead.io/courses/confidently-testing-redux-applications-with-jest-typescript-16e17d9b">[Course] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Testing_redux_with_ts_and_jest"> Confidently Testing Redux Applications with Jest & TypeScript<a> (100%)   ✔️
     </summary>
     <ul>
       <li>
@@ -251,6 +217,22 @@ This is a simple document that aims to list and index evidences of personal deve
       </li>
     </ul>
     </details>
+  </li>
+
+   <li>
+    <details> 
+      <summary>
+        <a href="https://www.youtube.com/watch?v=qAbluRQ6uf0&t=4032sf">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/Notification_service_igniteLab_dez22"> Ignite Lab Node.js (edition: dez/2022) </a> (100%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 27/02/2023
+        </li>
+        <li>
+          Finished: 03/03/2023
+        </li>
+      </ul>
+      </details>
   </li>
  
 </br>
