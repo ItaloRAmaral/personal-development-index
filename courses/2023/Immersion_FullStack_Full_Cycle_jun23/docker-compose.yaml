@@ -11,7 +11,7 @@ services:
       - zookeeper
     ports:
       - 9092:9092
-      - 9094:9094
+      - 9093:9093
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
