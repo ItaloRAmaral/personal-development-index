@@ -174,7 +174,7 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
     <summary>
-      <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Ignite_Course">[Course] [Ignite] ReactJS Module </a> (14%)
+      <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Ignite_Course">[Course] Rocketseat Ignite </a> (14%)
     </summary>
     <ul>
       <li>
