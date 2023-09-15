@@ -26,7 +26,7 @@ export class FetchRecentQuestionsController {
 
     const questions = await this.prisma.questions.findMany({
       take: perPage,
-      // skip: (page - 1) * perPage,
+      skip: (page - 1) * perPage,
       orderBy: {
         createdAt: 'desc',
       },
