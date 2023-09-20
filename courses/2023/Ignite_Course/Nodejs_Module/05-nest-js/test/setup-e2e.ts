@@ -1,6 +1,6 @@
 /*
-  Como o arquivo de setup é uma dependencia do vitest, não conseguiremos usar o env.ts para configurar as variáveis de ambiente.
-  Então instalamos o dotenv como dev dependencie
+  Como o arquivo de setup é uma dependência do vitest, não conseguiremos usar o env.ts para configurar as variáveis de ambiente.
+  Então instalamos o dotenv como dev dependencies
 */
 
 import 'dotenv/config'
