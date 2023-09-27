@@ -1,50 +1,40 @@
-import {
-  BadRequestException,
-  Body,
-  ConflictException,
-  Controller,
-  HttpCode,
-  Post,
-  UsePipes,
-} from '@nestjs/common'
-import { z } from 'zod'
+import { BadRequestException, Body, Controller, Post } from '@nestjs/common'
+import { CurrentUser } from '@/infra/auth/current-user-decorator'
+import { UserPayload } from '@/infra/auth/jwt.strategy'
 import { ZodValidationPipe } from '@/infra/http/pipes/zod-validation-pipe'
-import { RegisterStudentUseCase } from '@/domain/forum/application/use-cases/register-student'
-import { StudentAlreadyExistsError } from '@/domain/forum/application/use-cases/errors/student-already-exists-error'
+import { z } from 'zod'
+import { CreateQuestionUseCase } from '@/domain/forum/application/use-cases/create-question'
 
-const createAccountBodySchema = z.object({
-  name: z.string(),
-  email: z.string().email(),
-  password: z.string(),
+const createQuestionBodySchema = z.object({
+  title: z.string(),
+  content: z.string(),
 })
 
-type CreateAccountBodySchema = z.infer<typeof createAccountBodySchema>
+const bodyValidationPipe = new ZodValidationPipe(createQuestionBodySchema)
 
-@Controller('/accounts')
-export class CreateAccountController {
-  constructor(private registerStudent: RegisterStudentUseCase) {}
+type CreateQuestionBodySchema = z.infer<typeof createQuestionBodySchema>
+
+@Controller('/questions')
+export class CreateQuestionController {
+  constructor(private createQuestion: CreateQuestionUseCase) {}
 
   @Post()
-  @HttpCode(201)
-  @UsePipes(new ZodValidationPipe(createAccountBodySchema))
-  async handle(@Body() body: CreateAccountBodySchema) {
-    const { name, email, password } = body
+  async handle(
+    @Body(bodyValidationPipe) body: CreateQuestionBodySchema,
+    @CurrentUser() user: UserPayload,
+  ) {
+    const { title, content } = body
+    const userId = user.sub
 
-    const result = await this.registerStudent.execute({
-      name,
-      email,
-      password,
+    const result = await this.createQuestion.execute({
+      title,
+      content,
+      authorId: userId,
+      attachmentsIds: [],
     })
 
     if (result.isLeft()) {
-      const error = result.value
-
-      switch (error.constructor) {
-        case StudentAlreadyExistsError:
-          throw new ConflictException(error.message)
-        default:
-          throw new BadRequestException(error.message)
-      }
+      throw new BadRequestException()
     }
   }
 }
