@@ -126,7 +126,7 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
       <summary>
-        <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/Books/2023/Extreme_Programing_Pocket_Guide"> [Book] Extreme Programming - Pocket Guide </a> (0%) 
+        <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/Books/2023/Extreme_Programing_Pocket_Guide"> [Book] Extreme Programming - Pocket Guide </a> (100%) ✔️
       </summary>
       <ul>
         <li>
@@ -134,6 +134,54 @@ This is a simple document that aims to list and index evidences of personal deve
         </li>
         <li>
           Finished: 06/07/2023
+        </li>
+      </ul>
+      </details>
+  </li>
+  
+  <li>
+    <details> 
+      <summary>
+        <a href="https://www.amazon.com.br/Software-Engineering-Google-Titus-Winters/dp/1492082791"> [Book] [Chapter 6-7] Software Engineering at Google - Lessons Learned from Programming Over Time </a> (100%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 10/07/2023
+        </li>
+        <li>
+          Finished: 01/08/2023
+        </li>
+      </ul>
+      </details>
+  </li>
+  
+  <li>
+    <details> 
+      <summary>
+        <a href="https://www.amazon.com/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848"> [Book] Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith </a> (1%) 
+      </summary>
+      <ul>
+        <li>
+          Started: 09/10/2023
+        </li>
+        <li>
+          Finished: -/-/-
+        </li>
+      </ul>
+      </details>
+  </li>
+  
+  <li>
+    <details> 
+      <summary>
+        <a href="https://alistair.cockburn.us/hexagonal-architecture/"> [Article] The Pattern: Ports and Adapters (‘’Object Structural’’)</a> (100%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 06/08/2023
+        </li>
+        <li>
+          Finished: 06/08/2023
         </li>
       </ul>
       </details>
@@ -218,11 +266,27 @@ This is a simple document that aims to list and index evidences of personal deve
     </ul>
     </details>
   </li>
-
+  
    <li>
     <details> 
       <summary>
         <a href="https://www.youtube.com/watch?v=qAbluRQ6uf0&t=4032sf">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Notification_service_igniteLab_dez22"> Ignite Lab Node.js (edition: dez/2022) </a> (100%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 27/02/2023
+        </li>
+        <li>
+          Finished: 03/03/2023
+        </li>
+      </ul>
+      </details>
+  </li>
+
+   <li>
+    <details> 
+      <summary>
+        <a href="">[Project] </a> <a href="https://github.com/ItaloRAmaral/cliniccontrol"> Clinic Control </a>
       </summary>
       <ul>
         <li>
