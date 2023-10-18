@@ -282,6 +282,22 @@ This is a simple document that aims to list and index evidences of personal deve
       </ul>
       </details>
   </li>
+  
+   <li>
+    <details> 
+      <summary>
+        <a href="https://fullcycle.com.br/">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/fullcycle-immersion-out23"> FullStack & FullCycle Immersion (edition: oct/23 </a> (17%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 18/10/2023
+        </li>
+        <li>
+          Finished: --/--/----
+        </li>
+      </ul>
+      </details>
+  </li>
 
    <li>
     <details> 
