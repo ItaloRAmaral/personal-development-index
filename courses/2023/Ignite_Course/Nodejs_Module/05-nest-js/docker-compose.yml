@@ -1,0 +1,20 @@
+version: '3.8'
+
+volumes:
+  # postgresql data
+  nestjs-clean-postgres-data:
+    driver: local
+
+services:
+  postgres:
+    container_name: nest-clean-pg
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres 
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: nest-clean
+      PGDATA: /data/postgres
+    volumes:
+      - nestjs-clean-postgres-data:/var/lib/postgresql/data
