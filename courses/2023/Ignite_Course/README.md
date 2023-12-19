@@ -2,7 +2,7 @@
 
 ## ReactJS (14%)
 
-<a href="https://egghead.io/courses/architect-an-extensible-digital-garden-with-next-js-tailwind-and-nx-53f7628f">[Project 01] - ReactJS Fundamentals </a> (100%)
+<a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Ignite_Course/Reactjs_Module/01-fundamentos-react-js">[Project 01] - ReactJS Fundamentals </a> (100%)
 
 <a href="">[Project 02] - Creating SPAs with ReactJS </a> (0%)
 

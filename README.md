@@ -158,7 +158,7 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
       <summary>
-        <a href="https://www.amazon.com/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848"> [Book] Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith </a> (1%) 
+        <a href="https://www.amazon.com/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848"> [Book] Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith </a> (14.1%) 
       </summary>
       <ul>
         <li>
@@ -185,6 +185,22 @@ This is a simple document that aims to list and index evidences of personal deve
         </li>
       </ul>
       </details>
+  </li>
+
+   <li>
+    <details> 
+      <summary>
+        <a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">[Article] The Clean Architecture</a> (100%) ✔️
+      </summary>
+      <ul>
+        <li>
+          Started: 06/08/2023
+        </li>
+        <li>
+          Finished: 06/08/2023
+        </li>
+      </ul>
+    </details>
   </li>
 
 <li>
@@ -238,6 +254,40 @@ This is a simple document that aims to list and index evidences of personal deve
   <li>
     <details> 
     <summary>
+      <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Ignite_Course">[React Module] [Project 01] - ReactJS Fundamentals </a> (100%) ✔️
+    </summary>
+    <ul>
+      <li>
+        Started: 31/05/2023
+      </li>
+      <li>
+        Finished: 13/06/2023
+      </li>
+    </ul>
+    </details>
+  </li>
+
+  <li>
+    <details> 
+    <summary>
+      <a href="https://github.com/ItaloRAmaral/personal-development-index/pull/4">[Node Module] [Project 05] - NestJS </a> (80%) 
+    </summary>
+    <ul>
+      <li>
+        Started: 07/09/2023
+      </li>
+      <li>
+        Finished: 
+      </li>
+    </ul>
+    </details>
+  </li>
+
+  
+
+  <li>
+    <details> 
+    <summary>
       <a href="https://www.udemy.com/course/cypress-10-component-testing-tutorial/">[Course] </a> <a href="https://github.com/ItaloRAmaral/personal-development-index/tree/main/courses/2023/Cypress_10_Component_Testing_Tutorial"> Cypress 10 Component Testing Tutorial<a> (100%)  ✔️
     </summary>
     <ul>
@@ -286,14 +336,14 @@ This is a simple document that aims to list and index evidences of personal deve
    <li>
     <details> 
       <summary>
-        <a href="https://fullcycle.com.br/">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/fullcycle-immersion-out23"> FullStack & FullCycle Immersion (edition: oct/23 </a> (17%) ✔️
+        <a href="https://fullcycle.com.br/">[Workshop] </a> <a href="https://github.com/ItaloRAmaral/fullcycle-immersion-out23"> FullStack & FullCycle Immersion (edition: oct/23 </a> (100%) ✔️
       </summary>
       <ul>
         <li>
           Started: 18/10/2023
         </li>
         <li>
-          Finished: --/--/----
+          Finished: 22/10/2023
         </li>
       </ul>
       </details>
@@ -306,10 +356,10 @@ This is a simple document that aims to list and index evidences of personal deve
       </summary>
       <ul>
         <li>
-          Started: 27/02/2023
+          Started: 17/08/2023
         </li>
         <li>
-          Finished: 03/03/2023
+          Finished: 
         </li>
       </ul>
       </details>
